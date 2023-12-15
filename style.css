@@ -1,0 +1,1091 @@
+/* line 7, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+.gold {
+  color: #ffe182; }
+
+/* line 16, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+h1,
+h2,
+h3,
+h4,
+blockquote,
+nav * {
+  font-family: 'Playfair Display', serif; }
+
+/* line 20, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+h1 {
+  font-size: 4rem;
+  line-height: 1.25; }
+
+/* line 25, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+h2 {
+  font-size: 3rem;
+  line-height: 1.25; }
+
+/* line 30, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+h3 {
+  font-size: 1.9rem;
+  line-height: 1.25; }
+
+/* line 36, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+h4 {
+  font-size: 1.5rem;
+  line-height: 1.25; }
+
+/* line 42, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+b,
+strong {
+  font-weight: 700; }
+
+/* line 47, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+body,
+html {
+  color: #4b2026;
+  font-size: 10pt;
+  line-height: 1.3;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300; }
+
+/* line 55, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+img {
+  max-width: 100%; }
+
+/* line 59, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+.container, section article, nav .flex, nav section.video .layer, section.video nav .layer, nav article.bbox > .bbox-text, nav div.bbox > .bbox-text, nav .gallery, nav .room-header, nav footer article, footer nav article, nav footer .news-box, footer nav .news-box, nav footer .news-box .news, footer .news-box nav .news, .rslides, .rslides_tabs, #blog .blog, footer article {
+  max-width: 1200px;
+  margin: auto !important; }
+
+/* line 64, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+.font, #foodmenu, footer, footer form input,
+footer form textarea {
+  font-family: 'Playfair Display', serif; }
+
+/* line 68, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+.flex, section.video .layer, article.bbox > .bbox-text,
+div.bbox > .bbox-text, .gallery, .room-header, #blog .blog, footer article, footer .news-box, footer .news-box .news {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+  /* line 74, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .flex.f4, section.video .f4.layer, article.bbox > .f4.bbox-text,
+  div.bbox > .f4.bbox-text, .f4.gallery, .f4.room-header, #blog .f4.blog, footer article.f4, footer .f4.news-box, footer .news-box .f4.news {
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    /* line 77, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    .flex.f4 > div, section.video .f4.layer > div, article.bbox > .f4.bbox-text > div,
+    div.bbox > .f4.bbox-text > div, .f4.gallery > div, .f4.room-header > div, #blog .f4.blog > div, footer article.f4 > div, footer .f4.news-box > div, footer .news-box .f4.news > div {
+      width: 23%; }
+  /* line 81, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .flex.f3, section.video .f3.layer, section.video footer article.layer, footer section.video article.layer, article.bbox > .f3.bbox-text,
+  footer article.bbox > article.bbox-text, div.bbox > .f3.bbox-text, footer div.bbox > article.bbox-text, .f3.gallery, footer article.gallery, .f3.room-header, footer article.room-header, #blog .f3.blog, #blog footer article.blog, footer #blog article.blog, footer article, footer .f3.news-box, footer article.news-box, footer .news-box .f3.news, footer .news-box article.news {
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    /* line 84, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    .flex.f3 > div, section.video .f3.layer > div, section.video footer article.layer > div, footer section.video article.layer > div, article.bbox > .f3.bbox-text > div,
+    footer article.bbox > article.bbox-text > div, div.bbox > .f3.bbox-text > div, footer div.bbox > article.bbox-text > div, .f3.gallery > div, footer article.gallery > div, .f3.room-header > div, footer article.room-header > div, #blog .f3.blog > div, #blog footer article.blog > div, footer #blog article.blog > div, footer article > div, footer .f3.news-box > div, footer article.news-box > div, footer .news-box .f3.news > div, footer .news-box article.news > div {
+      width: calc(100% / 3 - 2%); }
+      /* line 86, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+      .flex.f3 > div.f32, section.video .f3.layer > div.f32, section.video footer article.layer > div.f32, footer section.video article.layer > div.f32, article.bbox > .f3.bbox-text > div.f32,
+      footer article.bbox > article.bbox-text > div.f32, div.bbox > .f3.bbox-text > div.f32, footer div.bbox > article.bbox-text > div.f32, .f3.gallery > div.f32, .f3.room-header > div.f32, #blog .f3.blog > div.f32, #blog footer article.blog > div.f32, footer #blog article.blog > div.f32, footer article > div.f32, footer .f3.news-box > div.f32, footer .news-box .f3.news > div.f32, footer .news-box article.news > div.f32 {
+        width: calc((2 * 100% / 3) - 2%); }
+  /* line 91, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .flex.f2, section.video .f2.layer, article.bbox > .f2.bbox-text,
+  div.bbox > .f2.bbox-text, .f2.gallery, .f2.room-header, #blog .f2.blog, footer article.f2, footer .f2.news-box, footer .news-box .f2.news {
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    /* line 94, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    .flex.f2 > div, section.video .f2.layer > div, article.bbox > .f2.bbox-text > div,
+    div.bbox > .f2.bbox-text > div, .f2.gallery > div, .f2.room-header > div, #blog .f2.blog > div, footer article.f2 > div, footer .f2.news-box > div, footer .news-box .f2.news > div {
+      width: 48%; }
+  /* line 98, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .flex.f1, section.video .f1.layer, article.bbox > .f1.bbox-text,
+  div.bbox > .f1.bbox-text, .f1.gallery, .f1.room-header, #blog .f1.blog, footer article.f1, footer .f1.news-box, footer .news-box .f1.news {
+    flex-wrap: wrap; }
+    /* line 100, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    .flex.f1 > div, section.video .f1.layer > div, article.bbox > .f1.bbox-text > div,
+    div.bbox > .f1.bbox-text > div, .f1.gallery > div, .f1.room-header > div, #blog .f1.blog > div, footer article.f1 > div, footer .f1.news-box > div, footer .news-box .f1.news > div {
+      width: 100%; }
+  /* line 104, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .flex.fc, section.video .fc.layer, section.video footer .layer.news-box, footer section.video .layer.news-box, article.bbox > .fc.bbox-text,
+  footer article.bbox > .bbox-text.news-box, div.bbox > .fc.bbox-text, footer div.bbox > .bbox-text.news-box, .fc.gallery, .fc.room-header, #blog .fc.blog, #blog footer .blog.news-box, footer #blog .blog.news-box, #blog footer .news-box .blog.news, footer .news-box #blog .blog.news, footer article.fc, footer .news-box, footer .news-box .news {
+    justify-content: center;
+    align-content: center; }
+  /* line 108, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .flex.fcol, section.video .fcol.layer, article.bbox > .fcol.bbox-text,
+  div.bbox > .fcol.bbox-text, .fcol.gallery, .fcol.room-header, #blog .fcol.blog, #blog footer .news-box .blog.news, footer .news-box #blog .blog.news, footer article.fcol, footer .fcol.news-box, footer .news-box .news {
+    flex-direction: column; }
+
+/* line 113, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+a {
+  color: #4b2026;
+  text-decoration: none; }
+
+/* line 118, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+a:hover {
+  color: #923f4a; }
+
+/* line 123, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+i,
+em {
+  font-style: italic; }
+
+/* line 127, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+.btn, article .list-tags li,
+div .list-tags li {
+  padding: 8px;
+  font-size: 0.9rem;
+  border: 1px solid #4b2026;
+  border-radius: 4px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 4px;
+  font-weight: 400; }
+
+/* line 138, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+.btn:hover, article .list-tags li:hover,
+div .list-tags li:hover {
+  border: 1px solid #923f4a; }
+
+/* line 142, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+blockquote {
+  display: inline-block; }
+
+/* line 152, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+section h1,
+section h2,
+section h3,
+section h4,
+section p,
+section blockquote {
+  margin: 10px 0; }
+
+/* line 157, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+section {
+  margin: 60px auto; }
+  /* line 159, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  section ::-moz-selection {
+    background: #ffe182; }
+  /* line 162, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  section ::selection {
+    background: #ffe182; }
+  /* line 168, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  section.dashbg {
+    background: url(light-dash-bg.png) #fdfdfd; }
+  /* line 171, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  section.video {
+    color: #ffe182;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+    height: 600px;
+    overflow: hidden;
+    margin: auto;
+    background: #4b2026; }
+    /* line 179, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    section.video video {
+      position: absolute;
+      max-width: auto;
+      height: 100%;
+      z-index: 10; }
+    /* line 185, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    section.video .bg-layer {
+      width: 100%;
+      height: 100%;
+      background-image: url("dash-bg.png");
+      background-blend-mode: overlay;
+      position: absolute;
+      z-index: 20; }
+    /* line 193, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    section.video .fade {
+      width: 100%;
+      height: 100%;
+      margin: auto;
+      position: relative;
+      z-index: 30;
+      text-align: center; }
+    /* line 201, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    section.video .layer {
+      width: 100%;
+      height: 100%;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      opacity: 0;
+      text-align: center; }
+      /* line 211, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+      section.video .layer img {
+        max-width: 350px; }
+      /* line 215, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+      section.video .layer h3,
+      section.video .layer h2 {
+        text-transform: uppercase;
+        font-weight: normal; }
+      /* line 219, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+      section.video .layer h3 {
+        font-size: 1.2rem;
+        letter-spacing: 1rem; }
+      /* line 223, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+      section.video .layer h2 {
+        font-size: 7rem; }
+        /* line 225, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+        section.video .layer h2 small {
+          font-size: 25%;
+          display: block;
+          letter-spacing: 1rem; }
+      /* line 231, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+      section.video .layer .btn, section.video .layer article .list-tags li, article .list-tags section.video .layer li,
+      section.video .layer div .list-tags li, div .list-tags section.video .layer li {
+        font-size: 1.2rem;
+        color: #ffe182;
+        border: 1px solid #ffe182;
+        padding: 12px; }
+
+/* line 242, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+.banner-sm {
+  background-image: url(dash-bg.png), url(kalchem-top.jpg);
+  background-repeat: repeat, no-repeat;
+  background-size: auto, auto 100%; }
+  /* line 246, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .banner-sm.flex, section.video .banner-sm.layer, article.bbox > .banner-sm.bbox-text,
+  div.bbox > .banner-sm.bbox-text, .banner-sm.gallery, .banner-sm.room-header, #blog .banner-sm.blog, footer article.banner-sm, footer .banner-sm.news-box, footer .news-box .banner-sm.news {
+    align-content: center;
+    justify-content: center;
+    align-items: center; }
+  /* line 251, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .banner-sm img {
+    height: 75%;
+    max-width: 100%; }
+
+/* line 258, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+nav {
+  font-size: 1.2rem;
+  background: url(gold-dash-bg.png) #ffe182;
+  text-transform: uppercase;
+  padding: 25px; }
+  /* line 259, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  nav ::-moz-selection {
+    background: #ffe182; }
+  /* line 262, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  nav ::selection {
+    background: #ffe182; }
+  /* line 269, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  nav .flex, nav section.video .layer, section.video nav .layer, nav article.bbox > .bbox-text, nav div.bbox > .bbox-text, nav .gallery, nav .room-header, nav #blog .blog, #blog nav .blog, nav footer article, footer nav article, nav footer .news-box, footer nav .news-box, nav footer .news-box .news, footer .news-box nav .news {
+    justify-content: space-between;
+    align-items: center; }
+  /* line 274, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  nav img {
+    vertical-align: middle;
+    margin-right: 5px; }
+  /* line 278, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  nav a {
+    line-height: 30px;
+    height: 30px;
+    display: inline-block; }
+  /* line 283, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  nav p {
+    display: inline-block;
+    min-width: 300px; }
+  /* line 288, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  nav ul li {
+    display: inline-block;
+    padding: 0 10px; }
+    /* line 291, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    nav ul li.active a {
+      font-weight: bold; }
+
+/* line 299, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+.owl-item {
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1, 1); }
+
+/* line 305, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+.map {
+  margin-bottom: 0; }
+  /* line 307, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .map #map {
+    height: 400px;
+    width: 100%;
+    border-top: 5px solid #ffe182;
+    border-bottom: 10px solid #ffe182; }
+
+/* line 316, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+  /* line 324, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .rslides:after {
+    border-bottom: 50px solid transparent;
+    border-right: 50px solid #fff;
+    border-top: 50px solid transparent;
+    content: '';
+    height: 0;
+    margin-top: -50px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 0;
+    z-index: 100; }
+  /* line 337, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .rslides:before {
+    border-bottom: 50px solid transparent;
+    border-left: 50px solid #fff;
+    border-top: 50px solid transparent;
+    content: '';
+    height: 0;
+    margin-top: -50px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    z-index: 100; }
+
+/* line 352, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0; }
+
+/* line 361, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left; }
+
+/* line 368, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+.rslides img,
+.rslides .img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0; }
+
+/* line 376, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+.rslides_tabs {
+  text-align: center;
+  padding: 0; }
+  /* line 380, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .rslides_tabs li {
+    display: inline-block;
+    padding: 10px; }
+
+/* line 389, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+article p,
+div p {
+  font-size: 1.1rem;
+  line-height: 1.5; }
+  /* line 392, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  article p strong,
+  div p strong {
+    font-weight: 500; }
+
+/* line 397, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+article.intro div:first-of-type h2,
+div.intro div:first-of-type h2 {
+  text-transform: uppercase; }
+
+/* line 400, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+article.intro h2,
+div.intro h2 {
+  font-size: 1.7rem; }
+  /* line 402, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  article.intro h2:before,
+  div.intro h2:before {
+    content: '';
+    background: #ffe182;
+    display: block;
+    height: 4px;
+    margin-bottom: 1rem;
+    width: 50%; }
+
+/* line 411, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+article.intro h3,
+div.intro h3 {
+  font-size: 1.5rem; }
+
+/* line 419, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+article.big-h h1,
+article.big-h h2,
+article.big-h h3,
+article.big-h h4,
+div.big-h h1,
+div.big-h h2,
+div.big-h h3,
+div.big-h h4 {
+  text-transform: uppercase; }
+
+/* line 425, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+article.box .box-item > div,
+div.box .box-item > div {
+  background: #fff;
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+  margin-top: -10%;
+  position: relative;
+  z-index: 10;
+  border-top: 5px solid #ffe182; }
+
+/* line 440, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+article.box h3,
+article.box h4,
+div.box h3,
+div.box h4 {
+  letter-spacing: -0.5pt;
+  text-transform: uppercase;
+  display: inline-block; }
+  /* line 444, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  article.box h3 big,
+  article.box h4 big,
+  div.box h3 big,
+  div.box h4 big {
+    font-size: 150%;
+    font-weight: bold; }
+  /* line 448, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  article.box h3 small,
+  article.box h4 small,
+  div.box h3 small,
+  div.box h4 small {
+    font-size: 75%;
+    font-weight: normal; }
+
+/* line 453, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+article.box h3,
+div.box h3 {
+  font-size: 1.6rem;
+  font-weight: bold; }
+
+/* line 457, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+article.box h4,
+div.box h4 {
+  font-size: 1.2rem;
+  margin-right: 20px; }
+
+/* line 461, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+article.box .tablebox,
+div.box .tablebox {
+  margin: 30px 0; }
+  /* line 468, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  article.box .tablebox .table > tbody > tr > td,
+  article.box .tablebox .table > tbody > tr > th,
+  article.box .tablebox .table > tfoot > tr > td,
+  article.box .tablebox .table > tfoot > tr > th,
+  article.box .tablebox .table > thead > tr > td,
+  article.box .tablebox .table > thead > tr > th,
+  div.box .tablebox .table > tbody > tr > td,
+  div.box .tablebox .table > tbody > tr > th,
+  div.box .tablebox .table > tfoot > tr > td,
+  div.box .tablebox .table > tfoot > tr > th,
+  div.box .tablebox .table > thead > tr > td,
+  div.box .tablebox .table > thead > tr > th {
+    padding: 15px;
+    line-height: 1;
+    font-size: 1.5rem; }
+    /* line 472, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    article.box .tablebox .table > tbody > tr > td span,
+    article.box .tablebox .table > tbody > tr > th span,
+    article.box .tablebox .table > tfoot > tr > td span,
+    article.box .tablebox .table > tfoot > tr > th span,
+    article.box .tablebox .table > thead > tr > td span,
+    article.box .tablebox .table > thead > tr > th span,
+    div.box .tablebox .table > tbody > tr > td span,
+    div.box .tablebox .table > tbody > tr > th span,
+    div.box .tablebox .table > tfoot > tr > td span,
+    div.box .tablebox .table > tfoot > tr > th span,
+    div.box .tablebox .table > thead > tr > td span,
+    div.box .tablebox .table > thead > tr > th span {
+      font-size: 1rem; }
+  /* line 478, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  article.box .tablebox td:last-of-type,
+  article.box .tablebox th:last-of-type,
+  div.box .tablebox td:last-of-type,
+  div.box .tablebox th:last-of-type {
+    text-align: right; }
+
+/* line 484, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+article .list-tags li,
+div .list-tags li {
+  font-size: 0.7rem;
+  line-height: 0.9rem;
+  padding: 6px;
+  margin-bottom: 4px;
+  cursor: default; }
+
+/* line 492, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+article.bbox,
+div.bbox {
+  align-items: center; }
+  /* line 494, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  article.bbox h3,
+  article.bbox h4,
+  div.bbox h3,
+  div.bbox h4 {
+    font-weight: normal; }
+  /* line 498, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  article.bbox > .bbox-img,
+  div.bbox > .bbox-img {
+    width: 50%; }
+  /* line 501, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  article.bbox > .bbox-text,
+  div.bbox > .bbox-text {
+    background: #fff;
+    padding: 80px 60px;
+    width: calc(50% - 120px);
+    height: 100%;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-left: -10%;
+    z-index: 10; }
+  /* line 512, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  article.bbox.inverse,
+  div.bbox.inverse {
+    flex-direction: row-reverse; }
+    /* line 514, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    article.bbox.inverse > .bbox-text,
+    div.bbox.inverse > .bbox-text {
+      margin: auto;
+      margin-right: -10%; }
+  /* line 519, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  article.bbox img,
+  div.bbox img {
+    max-width: 100%; }
+
+/* line 523, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+article.warning,
+div.warning {
+  margin: auto;
+  border: 2px solid #ffb7b7;
+  padding: 20px;
+  text-align: center; }
+  /* line 528, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  article.warning h3,
+  div.warning h3 {
+    text-transform: uppercase; }
+
+/* line 534, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+.gallery {
+  margin: 30px 0;
+  flex-wrap: wrap; }
+  /* line 538, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .gallery .grid-item {
+    width: calc(100% / 4);
+    height: 100%;
+    padding: 0 2px; }
+    /* line 542, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    .gallery .grid-item.grid-double {
+      width: calc(100% / 2 - 4px); }
+    /* line 545, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    .gallery .grid-item img {
+      transition: all 0.2s ease-in-out; }
+      /* line 547, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+      .gallery .grid-item img:hover {
+        transform: scale(1.1); }
+    /* line 551, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    .gallery .grid-item .fancybox {
+      overflow: hidden;
+      display: block; }
+  /* line 556, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .gallery.wedd .grid-item {
+    height: auto !important;
+    width: calc(100% / 4); }
+  /* line 560, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .gallery.hotel .grid-item {
+    width: calc(100% / 4); }
+
+/* line 565, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+.room-header {
+  justify-content: space-between; }
+  /* line 568, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .room-header > div:last-of-type {
+    text-align: right; }
+    /* line 570, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    .room-header > div:last-of-type h4 {
+      margin: 10px auto; }
+
+/* line 579, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+.yt:after,
+.bigphoto:after {
+  border-bottom: 50px solid transparent;
+  border-right: 50px solid #fff;
+  border-top: 50px solid transparent;
+  content: '';
+  height: 0;
+  margin-top: -50px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  width: 0;
+  z-index: 100; }
+
+/* line 592, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+.yt:before,
+.bigphoto:before {
+  border-bottom: 50px solid transparent;
+  border-left: 50px solid #fff;
+  border-top: 50px solid transparent;
+  content: '';
+  height: 0;
+  margin-top: -50px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 0;
+  z-index: 100; }
+
+/* line 608, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+.quote {
+  padding: 50px;
+  background-image: url("kalchem-logo-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-align: center; }
+  /* line 617, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .quote h1,
+  .quote h2,
+  .quote h3 {
+    text-transform: uppercase; }
+  /* line 620, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .quote blockquote p {
+    font-style: italic; }
+
+/* line 625, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+.blockquotes blockquote {
+  width: 100% !important;
+  display: block !important;
+  opacity: 0; }
+
+/* line 636, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+#blog .blog aside {
+  width: 30%;
+  margin-left: 5%; }
+  /* line 639, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  #blog .blog aside div {
+    margin-bottom: 40px; }
+  /* line 642, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  #blog .blog aside h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 600; }
+    /* line 646, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    #blog .blog aside h3:before {
+      content: '';
+      background: #ffe182;
+      display: block;
+      height: 4px;
+      margin-bottom: 1rem;
+      width: 50%; }
+  /* line 655, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  #blog .blog aside h4 {
+    font-size: 1.3rem; }
+
+/* line 659, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+#blog .blog .articles {
+  width: 65%; }
+  /* line 661, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  #blog .blog .articles article {
+    margin-bottom: 40px !important; }
+    /* line 663, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    #blog .blog .articles article h2 {
+      font-size: 2.5rem;
+      text-transform: uppercase; }
+    /* line 667, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    #blog .blog .articles article p {
+      font-size: 1rem; }
+    /* line 670, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    #blog .blog .articles article .img-box {
+      border-top: 8px solid #ffe182; }
+
+/* line 679, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+#foodmenu {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap; }
+  /* line 685, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  #foodmenu .foodintro {
+    width: 30%;
+    margin-right: 10% !important; }
+    /* line 688, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    #foodmenu .foodintro h3 {
+      font-size: 2.1rem; }
+    /* line 691, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    #foodmenu .foodintro h3:before {
+      content: '';
+      background: #ffe182;
+      display: block;
+      height: 4px;
+      margin-bottom: 1rem;
+      width: 50%; }
+    /* line 699, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    #foodmenu .foodintro p {
+      font-style: italic; }
+  /* line 703, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  #foodmenu .foodmenu {
+    width: 60%; }
+    /* line 706, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    #foodmenu .foodmenu td span:first-of-type {
+      font-size: 1.4rem; }
+    /* line 709, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    #foodmenu .foodmenu td:first-of-type {
+      width: 80%; }
+      /* line 711, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+      #foodmenu .foodmenu td:first-of-type span:last-of-type {
+        font-style: italic; }
+    /* line 715, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    #foodmenu .foodmenu td:last-of-type {
+      width: 20%;
+      text-align: right; }
+
+/* line 723, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+.formbox {
+  margin-top: 0px !important;
+  font-size: 1rem; }
+  /* line 726, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .formbox fieldset {
+    padding: 30px;
+    border: 1px solid #c68080 !important;
+    margin: 10px auto;
+    max-width: 1000px; }
+  /* line 732, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .formbox legend {
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 10px;
+    font-family: 'Playfair Display'; }
+  /* line 738, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .formbox .form-group {
+    width: calc(100% / 2);
+    margin: 10px auto; }
+    /* line 741, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    .formbox .form-group.textarea {
+      width: 100%; }
+      /* line 743, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+      .formbox .form-group.textarea .form-control {
+        border: 2px solid #be6e6e !important; }
+  /* line 748, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .formbox .control-label {
+    padding: 5px 0;
+    display: block;
+    font-weight: 400; }
+  /* line 753, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .formbox .form-control {
+    width: calc(100% - 4px);
+    display: block;
+    border: 2px solid #fff;
+    border-bottom: 2px solid #be6e6e;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #4b2026; }
+    /* line 763, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    .formbox .form-control:focus {
+      border: 2px solid #be6e6e;
+      outline: none; }
+  /* line 768, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .formbox .btn, .formbox article .list-tags li, article .list-tags .formbox li,
+  .formbox div .list-tags li, div .list-tags .formbox li {
+    color: #be6e6e;
+    border-color: #be6e6e;
+    background: none; }
+    /* line 772, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    .formbox .btn:hover, .formbox article .list-tags li:hover, article .list-tags .formbox li:hover,
+    .formbox div .list-tags li:hover, div .list-tags .formbox li:hover {
+      color: #4b2026;
+      border-color: #4b2026; }
+  /* line 778, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .formbox fieldset#resume span {
+    font-weight: 400; }
+  /* line 781, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .formbox fieldset#resume .btn, .formbox fieldset#resume article .list-tags li, article .list-tags .formbox fieldset#resume li,
+  .formbox fieldset#resume div .list-tags li, div .list-tags .formbox fieldset#resume li {
+    font-size: 1.10rem;
+    margin: 10px 0; }
+
+/* line 789, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+footer {
+  background-color: #4b2026;
+  background-blend-mode: overlay;
+  color: #e6aa96;
+  /* firefox 19+ */
+  /* ie */ }
+  /* line 790, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  footer ::-moz-selection {
+    background: #ffe182; }
+  /* line 793, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  footer ::selection {
+    background: #ffe182; }
+  /* line 802, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  footer p {
+    font-size: 1rem;
+    line-height: 1.5; }
+  /* line 806, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  footer h3 {
+    color: #ffe182;
+    font-size: 1.75rem;
+    text-transform: uppercase; }
+  /* line 811, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  footer h4 {
+    font-size: 1.3rem;
+    margin: 5px 0;
+    color: #ffe182; }
+  /* line 816, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  footer article {
+    padding: 50px; }
+  /* line 823, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  footer .news-box {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: space-between; }
+    /* line 831, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    footer .news-box div .circle,
+    footer .news-box div .picture {
+      border: 1px solid #e6aa96;
+      padding: 2px;
+      margin: 11px;
+      width: calc(100% - 30px);
+      max-width: 200px;
+      min-width: 100px; }
+    /* line 841, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    footer .news-box .news {
+      width: 100%;
+      max-width: 100%; }
+  /* line 849, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  footer .contact {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  /* line 853, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  footer form {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+    /* line 857, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    footer form input,
+    footer form textarea {
+      background: none;
+      color: #ffe182;
+      width: calc(100% - 22px);
+      padding: 12px;
+      margin: 5px 0;
+      border: none;
+      border-bottom: 1px solid #e6aa96;
+      font-size: 0.9rem; }
+      /* line 867, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+      footer form input:focus,
+      footer form textarea:focus {
+        outline: none;
+        color: #ffe182;
+        border-color: #ffe182; }
+      /* line 872, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+      footer form input[type="submit"],
+      footer form textarea[type="submit"] {
+        width: auto;
+        color: #e6aa96;
+        background: none; }
+        /* line 876, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+        footer form input[type="submit"]:hover,
+        footer form textarea[type="submit"]:hover {
+          color: #ffe182;
+          border-bottom: 2px solid #ffe182; }
+  /* line 883, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  footer ::-webkit-input-placeholder {
+    color: #e6aa96; }
+  /* line 886, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  footer ::-moz-placeholder {
+    color: #e6aa96; }
+  /* line 890, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  footer :-ms-input-placeholder {
+    color: #e6aa96; }
+  /* line 894, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  footer input:-moz-placeholder {
+    color: #e6aa96; }
+
+@media all and (max-width: 1280px) {
+  /* line 901, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  article {
+    padding: 0 30px; } }
+
+@media all and (max-width: 1080px) {
+  /* line 910, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  article.bbox > .bbox-text {
+    padding: 40px 30px;
+    width: calc(50% - 60px); }
+  /* line 917, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  footer article .news-box img {
+    display: none; }
+  /* line 922, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .gallery.wedd .grid-item {
+    width: calc(100% / 4); } }
+
+@media all and (max-width: 767px) {
+  /* line 930, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  body {
+    padding: 0 20px; }
+  /* line 933, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  article {
+    padding: 0; }
+    /* line 936, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    article.bbox,
+    article .inverse {
+      display: block; }
+      /* line 938, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+      article.bbox > .bbox-text,
+      article .inverse > .bbox-text {
+        width: calc(100% - 60px);
+        padding: 20px 30px;
+        margin: auto !important; }
+      /* line 943, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+      article.bbox > .bbox-img,
+      article .inverse > .bbox-img {
+        width: calc(100% - 60px);
+        padding: 20px 30px;
+        margin: auto !important; }
+  /* line 950, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .flex, section.video .layer, article.bbox > .bbox-text,
+  div.bbox > .bbox-text, .gallery, .room-header, #blog .blog, footer article, footer .news-box, footer .news-box .news {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center; }
+    /* line 954, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    .flex.f4, section.video .f4.layer, article.bbox > .f4.bbox-text,
+    div.bbox > .f4.bbox-text, .f4.gallery, .f4.room-header, #blog .f4.blog, footer article.f4, footer .f4.news-box, footer .news-box .f4.news {
+      justify-content: space-between; }
+      /* line 956, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+      .flex.f4 > div, section.video .f4.layer > div, article.bbox > .f4.bbox-text > div,
+      div.bbox > .f4.bbox-text > div, .f4.gallery > div, .f4.room-header > div, #blog .f4.blog > div, footer article.f4 > div, footer .f4.news-box > div, footer .news-box .f4.news > div {
+        width: 48%; }
+    /* line 961, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    .flex.f3 > div, section.video .f3.layer > div, section.video footer article.layer > div, footer section.video article.layer > div, article.bbox > .f3.bbox-text > div,
+    footer article.bbox > article.bbox-text > div, div.bbox > .f3.bbox-text > div, footer div.bbox > article.bbox-text > div, .f3.gallery > div, footer article.gallery > div, .f3.room-header > div, footer article.room-header > div, #blog .f3.blog > div, #blog footer article.blog > div, footer #blog article.blog > div, footer article > div, footer .f3.news-box > div, footer article.news-box > div, footer .news-box .f3.news > div, footer .news-box article.news > div {
+      width: 100% !important; }
+    /* line 966, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    .flex.f2 > div, section.video .f2.layer > div, article.bbox > .f2.bbox-text > div,
+    div.bbox > .f2.bbox-text > div, .f2.gallery > div, .f2.room-header > div, #blog .f2.blog > div, footer article.f2 > div, footer .f2.news-box > div, footer .news-box .f2.news > div {
+      width: 100% !important; }
+  /* line 971, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .banner-sm {
+    height: 150px; }
+    /* line 973, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    .banner-sm.start {
+      display: block; }
+  /* line 977, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .video.start {
+    display: none; }
+  /* line 980, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  nav {
+    text-align: center; }
+    /* line 982, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    nav .flex, nav section.video .layer, section.video nav .layer, nav article.bbox > .bbox-text, nav div.bbox > .bbox-text, nav .gallery, nav .room-header, nav #blog .blog, #blog nav .blog, nav footer article, footer nav article, nav footer .news-box, footer nav .news-box, nav footer .news-box .news, footer .news-box nav .news {
+      display: block; }
+    /* line 985, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    nav p {
+      min-width: auto; }
+    /* line 990, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    nav a,
+    nav p,
+    nav ul li {
+      display: block; }
+  /* line 997, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .quote {
+    padding: 25px; }
+    /* line 999, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    .quote h1 {
+      font-size: 3rem; }
+    /* line 1002, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    .quote h2 {
+      font-size: 2rem; }
+    /* line 1005, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    .quote h3 {
+      font-size: 0.9rem;
+      letter-spacing: 0.1rem; }
+    /* line 1009, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    .quote blockquote p {
+      font-size: 1.4rem; }
+  /* line 1014, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .gallery .grid-item {
+    width: calc(100% / 3) !important; }
+  /* line 1018, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  #foodmenu {
+    display: block;
+    text-align: left; }
+    /* line 1022, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    #foodmenu .foodmenu,
+    #foodmenu .foodintro {
+      width: 100%;
+      margin: 0; }
+    /* line 1027, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    #foodmenu .foodintro h3 {
+      margin-top: 20px; }
+      /* line 1029, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+      #foodmenu .foodintro h3:before {
+        width: 100%; }
+    /* line 1033, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    #foodmenu .foodintro p {
+      display: none; }
+    /* line 1038, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    #foodmenu .foodmenu td:last-of-type {
+      width: 30%; }
+    /* line 1041, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    #foodmenu .foodmenu td:first-of-type {
+      width: 70%; }
+  /* line 1046, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  footer article {
+    padding: 50px 20px; } }
+
+@media all and (max-width: 480px) {
+  /* line 1053, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  body {
+    padding: 0 10px; }
+  /* line 1056, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  article {
+    padding: 0 5px;
+    text-align: center; }
+  /* line 1060, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .flex, section.video .layer, article.bbox > .bbox-text,
+  div.bbox > .bbox-text, .gallery, .room-header, #blog .blog, footer article, footer .news-box, footer .news-box .news {
+    display: flex;
+    flex-wrap: wrap; }
+    /* line 1064, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    .flex.f4 > div, section.video .f4.layer > div, article.bbox > .f4.bbox-text > div,
+    div.bbox > .f4.bbox-text > div, .f4.gallery > div, .f4.room-header > div, #blog .f4.blog > div, footer article.f4 > div, footer .f4.news-box > div, footer .news-box .f4.news > div {
+      width: 100% !important; }
+  /* line 1070, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .gallery .grid-item {
+    width: calc(100% / 2) !important; }
+  /* line 1074, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  footer article {
+    padding: 50px 10px; } }
+
+@media all and (min-width: 768px) {
+  /* line 1081, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .banner-sm {
+    height: 250px; }
+    /* line 1083, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+    .banner-sm.start {
+      display: none; }
+  /* line 1087, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .video.start {
+    display: block; }
+  /* line 1091, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .quote h1 {
+    font-size: 4rem; }
+  /* line 1094, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .quote h2 {
+    font-size: 3rem; }
+  /* line 1097, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .quote h3 {
+    font-size: 1rem;
+    letter-spacing: 1rem; }
+  /* line 1101, C:/Users/Godziowaty/Desktop/kalch/style.scss */
+  .quote blockquote p {
+    font-size: 1.5rem; } }
+
+/*# sourceMappingURL=style.css.map */
