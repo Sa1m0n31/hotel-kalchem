@@ -27,7 +27,7 @@ get_header();
             <h2><strong>Sala weselna Kalchem</strong>&nbsp;- Zorganizuj wesele jakiego nie zapomną twoi goście.</h2>
         </div>
         <div>
-            <h3>Jeden z najpiękniejszych dni <br>w Waszym życiu</h3>
+            <h3>Jeden z najpiękniejszych dni w Waszym życiu</h3>
             <p>Dzień ślubu pozostanie w pamięci Nowożeńc&oacute;w na całe życie. Jest on ważnym dniem także dla nas - wraz z parą młodą rozmawiamy, wsłuchujemy się w ich pomysły i oczekiwania, doradzając wspólnie tworzymy ten dzień wyjątkowym.</p>
         </div>
         <div>
@@ -38,6 +38,13 @@ get_header();
             <h3>Naszą wizytówką <br>są nasi goście</h3>
             <p>Lata doświadczeń owocują perfekcyjnymi uroczystościami. Ogromna liczba zadowolnych Nowożeńców oraz Ich gości jest dla nas najlepszą wizytówką.</p>
         </div>
+    </article>
+</section>
+<section>
+    <article>
+        <?php
+            the_content();
+        ?>
     </article>
 </section>
 <section>

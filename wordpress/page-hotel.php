@@ -42,16 +42,9 @@ get_header();
 </section>
 <section>
     <article>
-        <div class="gallery hotel"><div class="grid-item"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory"); ?>/assets/gallery/8/84.jpg" rel="fancybox-8"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/8/84.jpg"; ?>" alt="ogród Kalchem"/></a></div>
-            <div class="grid-item"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory"); ?>/assets/gallery/8/28.jpg" rel="fancybox-8"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/8/28.jpg"; ?>" alt="hotel,pokoje,noclegi Kalchem"/></a></div>
-            <div class="grid-item"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory"); ?>/assets/gallery/8/96.jpg" rel="fancybox-8"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/8/96.jpg"; ?>" alt="hotel Kalchem"/></a></div>
-            <div class="grid-item"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory"); ?>/assets/gallery/8/31.jpg" rel="fancybox-8"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/8/31.jpg"; ?>" alt="hotel,pokoje,noclegi Kalchem"/></a></div>
-            <div class="grid-item"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory"); ?>/assets/gallery/8/95.jpg" rel="fancybox-8"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/8/95.jpg"; ?>" alt="hotel Kalchem"/></a></div>
-            <div class="grid-item"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory"); ?>/assets/gallery/8/82.jpg" rel="fancybox-8"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/8/82.jpg"; ?>" alt="ogród Kalchem"/></a></div>
-            <div class="grid-item"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory"); ?>/assets/gallery/8/88.jpg" rel="fancybox-8"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/8/88.jpg"; ?>" alt="restauracja Kalchem"/></a></div>
-            <div class="grid-item"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory"); ?>/assets/gallery/8/86.jpg" rel="fancybox-8"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/8/86.jpg"; ?>" alt="ogród Kalchem"/></a></div>
-            <div class="grid-item"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory"); ?>/assets/gallery/8/90.jpg" rel="fancybox-8"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/8/90.jpg"; ?>" alt="restauracja Kalchem"/></a></div>
-            <div class="grid-item"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory"); ?>/assets/gallery/8/83.jpg" rel="fancybox-8"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/8/83.jpg"; ?>" alt="ogród Kalchem"/></a></div></div>
+        <?php
+        the_content();
+        ?>
     </article>
 </section>
 <a id="pokoje"></a>

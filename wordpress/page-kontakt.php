@@ -32,15 +32,9 @@ get_header();
 
                 <h3>Formularz kontaktowy</h3>
                 <br>
-                <form class="formbox" action="formularzajax2.html" method="POST" id="conform" name="conform">
-                    <div class="flex f1">
-                        <div class="form-group"><label class="control-label" for="conname">Imię i nazwisko</label> <input id="conname" class="form-control" name="conname" required="required" type="text" value=""/></div>
-                        <div class="form-group"><label class="control-label" for="conemail">Adres email *</label> <input id="conemail" class="form-control" name="conemail" required="required" type="email" value=""/></div>
-                        <div class="form-group"><label class="control-label" for="contel">Telefon kontaktowy *</label> <input id="ccontel" class="form-control" name="contel" required="required" type="tel" value=""/></div>
-                        <div class="form-group textarea"><label class="control-label" for="context">Treść wiadomości:</label> <textarea id="context" class="form-control" name="context" rows="5" value=""></textarea></div>
-                        <div><br><input class="btn" name="con" id="con" type="submit" value="Wyślij wiadomość"></div>
-                    </div>
-                </form>
+                <div class="formbox">
+                    <?php echo do_shortcode('[contact-form-7 id="e11e76a" title="Formularz 1"]'); ?>
+                </div>
             </div>
         </div>
     </article>

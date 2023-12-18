@@ -135,7 +135,7 @@
             lat: 53.3220229,
             lng: 19.5898
         };
-        var crown = 'http://test.hotel.kalchem.com.pl/wp-content/themes/hotel-kalchem/assets/map-marker.png';
+        var crown = 'http://test.hotel.kalchem.com.pl/wp-content/themes/hotel-kalchem/assets/map-marker.png'; // TODO: change link
         var map = new google.maps.Map(document.getElementById('map'), {
             center: kalchem,
             scrollwheel: false,

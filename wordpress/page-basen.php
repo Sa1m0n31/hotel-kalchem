@@ -42,7 +42,11 @@ get_header();
     </article>
 </section>
 <section>
-    <!-- NextGen -->
+    <article>
+        <?php
+        the_content();
+        ?>
+    </article>
 </section>
 <a id="oranzeria"></a>
 <section>

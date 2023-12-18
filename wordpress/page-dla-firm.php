@@ -20,6 +20,13 @@ get_header();
     </div>
 </section>
 <section>
+    <article>
+        <?php
+        the_content();
+        ?>
+    </article>
+</section>
+<section>
     <article class="flex f3 intro">
         <div class="f32">
             <div class="gallery isotope"><div class="grid-item grid-double"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory") . "/assets/dla-firm-2.jpg"; ?>" rel="fancybox-9"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/dla-firm-2.jpg"; ?>" alt="sala konferencyjna,dla firm Kalchem"/></a></div>
