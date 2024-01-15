@@ -127,18 +127,18 @@ get_header('main');
             <div class="flex contact--left">
                 <ul class="rslides">
                     <li>
-                        <img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/recepcja.jpg"; ?>" alt="">
+                        <img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/recepcja-2.jpg"; ?>" alt="">
                     </li>
                 </ul>
             </div>
             <div class="contact--right">
                 <div class="contact">
-                    <h3>Hotel Kalchem</h3>
-                    <p>Brzozie 157, 87-313 Brzozie
-                        <br> NIP: 874-162-27-10
-                        <br> REGON: 340931353
-                        <br> tel. 56 49 352 51</p>
-                    <br>
+<!--                    <h3>Hotel Kalchem</h3>-->
+<!--                    <p>Brzozie 157, 87-313 Brzozie-->
+<!--                        <br> NIP: 874-162-27-10-->
+<!--                        <br> REGON: 340931353-->
+<!--                        <br> tel. 56 49 352 51</p>-->
+<!--                    <br>-->
 
                     <h3>Formularz kontaktowy</h3>
                     <br>

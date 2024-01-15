@@ -75,7 +75,7 @@ get_header();
             </div>
         </div>
         <div class="box-item">
-            <img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/5/cover.jpg"; ?>" alt="Pokoje 1-2 osobowe ****">
+            <img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/pokoje-1-2-osobowe.jpg"; ?>" alt="Pokoje 1-2 osobowe ****">
             <div>
                 <h3 class="text-normal"><a href="<?php echo get_page_link(get_page_by_title('Pokoje 1-2 osobowe')->ID); ?>">Pokoje 1-2 osobowe <i class="fa fa-star-o gold"></i><i class="fa fa-star-o gold"></i><i class="fa fa-star-o gold"></i><i class="fa fa-star-o gold"></i></a></h3>
                 <p><i class="fa fa-bed" aria-hidden="true"></i> 2 jednosobowe <i class="fa fa-user" style="margin-left:20px" aria-hidden="true"></i> max. 2 osoby </p>
@@ -91,7 +91,7 @@ get_header();
             </div>
         </div>
         <div class="box-item">
-            <img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/4/cover.jpg"; ?>" alt="Pokoje 2-osobowe ****">
+            <img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/pokoje-2-osobowe.jpg"; ?>" alt="Pokoje 2-osobowe ****">
             <div>
                 <h3 class="text-normal"><a href="<?php echo get_page_link(get_page_by_title('Pokoje 2-osobowe')->ID); ?>">Pokoje 2-osobowe <i class="fa fa-star-o gold"></i><i class="fa fa-star-o gold"></i><i class="fa fa-star-o gold"></i><i class="fa fa-star-o gold"></i></a></h3>
                 <p><i class="fa fa-bed" aria-hidden="true"></i> 1 podwójne <i class="fa fa-user" style="margin-left:20px" aria-hidden="true"></i> max. 2 osoby </p>
@@ -107,7 +107,7 @@ get_header();
             </div>
         </div>
         <div class="box-item">
-            <img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/6/cover.jpg"; ?>" alt="Pokoje 3-osobowe ***">
+            <img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/pokoje-3-osobowe-3-lozka.jpg"; ?>" alt="Pokoje 3-osobowe ***">
             <div>
                 <h3 class="text-normal"><a href="<?php echo get_page_link(get_page_by_title('Pokoje 3-osobowe 3 łóżka')->ID); ?>">Pokoje 3-osobowe <i class="fa fa-star-o gold"></i><i class="fa fa-star-o gold"></i><i class="fa fa-star-o gold"></i></a></h3>
                 <p><i class="fa fa-bed" aria-hidden="true"></i> 3 pojedyncze <i class="fa fa-user" style="margin-left:20px" aria-hidden="true"></i> max. 3 osoby </p>
@@ -123,7 +123,7 @@ get_header();
             </div>
         </div>
         <div class="box-item">
-            <img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/2/cover.jpg"; ?>" alt="Pokoje 3-osobowe ***">
+            <img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/pokoje-3-osobowe-2-lozka-2.jpg"; ?>" alt="Pokoje 3-osobowe ***">
             <div>
                 <h3 class="text-normal"><a href="<?php echo get_page_link(get_page_by_title('Pokoje 3-osobowe 2 łóżka')->ID); ?>">Pokoje 3-osobowe <i class="fa fa-star-o gold"></i><i class="fa fa-star-o gold"></i><i class="fa fa-star-o gold"></i></a></h3>
                 <p><i class="fa fa-bed" aria-hidden="true"></i> 1 podwójne, 1 pojedyncze <i class="fa fa-user" style="margin-left:20px" aria-hidden="true"></i> max. 3 osoby </p>

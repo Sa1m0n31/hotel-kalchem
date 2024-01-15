@@ -14,7 +14,7 @@ get_header();
     <div>
         <ul class="rslides">
             <li>
-                <img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/4/cover.jpg"; ?>" alt="">
+                <img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/pokoje-2-osobowe.jpg"; ?>" alt="">
             </li>
         </ul>
     </div>
@@ -36,12 +36,12 @@ get_header();
 
                 </div>
                 <div class="gallery">
-                    <div class="grid-item"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/4/14.jpg"; ?>" rel="fancybox-4"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/4/14.jpg"; ?>" alt="pokoje 2os. Kalchem"/></a></div>
-                    <div class="grid-item"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/4/15.jpg"; ?>" rel="fancybox-4"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/4/15.jpg"; ?>" alt="pokoje 2os. Kalchem"/></a></div>
-                    <div class="grid-item"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/4/12.jpg"; ?>" rel="fancybox-4"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/4/12.jpg"; ?>" alt="pokoje 2os. Kalchem"/></a></div>
+                    <div class="grid-item"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory") . "/assets/pokoje-4.jpg"; ?>" rel="fancybox-4"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/pokoje-4.jpg"; ?>" alt="pokoje 2os. Kalchem"/></a></div>
+                    <div class="grid-item"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory") . "/assets/pokoje-3.jpg"; ?>" rel="fancybox-4"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/pokoje-3.jpg"; ?>" alt="pokoje 2os. Kalchem"/></a></div>
+                    <div class="grid-item"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory") . "/assets/pokoje-2-osobowe.jpg"; ?>" rel="fancybox-4"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/pokoje-2-osobowe.jpg"; ?>" alt="pokoje 2os. Kalchem"/></a></div>
                     <div class="grid-item"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory") . "/assets/pokoje-2.jpg"; ?>" rel="fancybox-4"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/pokoje-2.jpg"; ?>" alt="pokoje 2os. Kalchem"/></a></div>
                 </div>
-                <div class="tablebox"><table class="table"><thead><tr><th>Opcja</th><th> </th></tr></thead><tbody><tr><td>Pokój 2os. Premium + Basen<br><span>Oferta ze śniadaniem i możliwością skorzystania z basenów</span></td><td> </td></tr><tr><td>Pokój 2os. Standard + Basen<br><span>Oferta bez śniadania, z możliwością skorzystania z basenów</span></td><td> </td></tr><tr><td>Pokój 2os. Premium<br><span>Oferta ze śniadaniem</span></td><td> </td></tr><tr><td>Pokój 2os. Standard<br><span>Oferta bez śniadania</span></td><td> </td></tr></tbody></table><table class="table"><thead><tr><th>Zniżki i dodatkowe opłaty</th></tr></thead><tbody><tr><td>Dzieci do lat 4-ciu</td><td>Za darmo *</td></tr><tr><td>Dzieci od 4 do 10 lat</td><td>Stawka 50% *</td></tr><tr><td>Dzieci od 10 lat</td><td>Stawka normalna</td></tr><tr><td>Mały pies / duży pies</td><td>20,- / 40,-</td></tr></tbody></table><div></div></div>
+                <div class="tablebox"><table class="table"><thead><tr><th>Opcja</th><th> </th></tr></thead><tbody><tr><td>Pokój 2os. Premium + Basen<br><span>Oferta ze śniadaniem i możliwością skorzystania z basenów</span></td><td> </td></tr><tr><td>Pokój 2os. Standard + Basen<br><span>Oferta bez śniadania, z możliwością skorzystania z basenów</span></td><td> </td></tr><tr><td>Pokój 2os. Premium<br><span>Oferta ze śniadaniem</span></td><td> </td></tr><tr><td>Pokój 2os. Standard<br><span>Oferta bez śniadania</span></td><td> </td></tr></tbody></table><table class="table"><thead><tr><th>Zniżki i dodatkowe opłaty</th></tr></thead><tbody><tr><td>Dzieci do lat 4</td><td>Za darmo</td></tr><tr><td>Dzieci od 4 do 10 lat</td><td>Opłata za dostawkę</td></tr><tr><td>Dzieci od 10 lat</td><td>Stawka normalna</td></tr></tbody></table><div></div></div>
             </div>
         </div>
     </article>

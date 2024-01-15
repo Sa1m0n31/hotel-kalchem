@@ -42,7 +42,7 @@ get_header();
                     <div class="grid-item"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/1/1.jpg"; ?>" rel="fancybox-1"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/1/1.jpg"; ?>" alt="apartament Kalchem"/></a></div>
                 </div>
                 <div class="tablebox">
-                    <table class="table"><thead><tr><th>Zniżki i dodatkowe opłaty</th></tr></thead><tbody><tr><td>Dzieci do lat 4-ciu</td><td>Za darmo *</td></tr><tr><td>Dzieci od 4 do 10 lat</td><td>Stawka 50% *</td></tr><tr><td>Dzieci od 10 lat</td><td>Stawka normalna</td></tr><tr><td>Mały pies / duży pies</td><td>20,- / 40,-</td></tr></tbody></table><div></div></div>
+                    <table class="table"><thead><tr><th>Zniżki i dodatkowe opłaty</th></tr></thead><tbody><tr><td>Dzieci do lat 4</td><td>Za darmo</td></tr><tr><td>Dzieci od 4 do 10 lat</td><td>Opłata za dostawkę</td></tr><tr><td>Dzieci od 10 lat</td><td>Stawka normalna</td></tr></tbody></table><div></div></div>
             </div>
         </div>
     </article>

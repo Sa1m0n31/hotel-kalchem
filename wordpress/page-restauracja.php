@@ -14,7 +14,7 @@ get_header();
     <div>
         <ul class="rslides">
             <li>
-                <img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/15/cover.jpg"; ?>" alt="">
+                <img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/restauracja-cover-2.jpg"; ?>" alt="">
             </li>
         </ul>
     </div>
@@ -44,10 +44,10 @@ get_header();
 <section>
     <article class="flex f3 intro">
         <div class="f32">
-            <div class="gallery"><div class="grid-item grid-double"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/7/24.jpg"; ?>" rel="fancybox-7"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/7/24.jpg"; ?>" alt="restauracja,oranżeria Kalchem"/></a></div>
-                <div class="grid-item grid-double"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/7/25.jpg"; ?>" rel="fancybox-7"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/7/25.jpg"; ?>" alt="restauracja,oranżeria Kalchem"/></a></div>
-                <div class="grid-item grid-double"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/7/26.jpg"; ?>" rel="fancybox-7"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/7/26.jpg"; ?>" alt="restauracja,oranżeria Kalchem"/></a></div>
-                <div class="grid-item grid-double"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/7/27.jpg"; ?>" rel="fancybox-7"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/7/27.jpg"; ?>" alt="restauracja,oranżeria Kalchem"/></a></div></div>
+            <div class="gallery"><div class="grid-item grid-double"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory") . "/assets/oranzeria1.jpg"; ?>" rel="fancybox-7"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/oranzeria1.jpg"; ?>" alt="restauracja,oranżeria Kalchem"/></a></div>
+                <div class="grid-item grid-double"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory") . "/assets/oranzeria2.jpg"; ?>" rel="fancybox-7"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/oranzeria2.jpg"; ?>" alt="restauracja,oranżeria Kalchem"/></a></div>
+                <div class="grid-item grid-double"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory") . "/assets/oranzeria3.jpg"; ?>" rel="fancybox-7"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/oranzeria3.jpg"; ?>" alt="restauracja,oranżeria Kalchem"/></a></div>
+                <div class="grid-item grid-double"><a class="fancybox" href="<?php echo get_bloginfo("stylesheet_directory") . "/assets/oranzeria4.jpg"; ?>" rel="fancybox-7"><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/oranzeria4.jpg"; ?>" alt="restauracja,oranżeria Kalchem"/></a></div></div>
         </div>
         <div>
             <h2><strong>Restauracja Kalchem</strong> w Brzoziu</h2>

@@ -87,7 +87,7 @@ get_header();
             <h3>Apartament Pary Młodej</h3>
             <p>Apartament to idealne uzupełnienie dla nowożeńc&oacute;w, kt&oacute;rzy zdecydują się celebrować sw&oacute;j ślub na sali weselnej w Hotelu Kalchem.</p>
         </div>
-        <div><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/5/cover.jpg"; ?>" alt="" />
+        <div><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/5/cover-new.jpg"; ?>" alt="" />
             <h3>Pokoje dla gości</h3>
             <p>Dla rodziny i znajomych wesele to znakomita okazja do udanej zabawy i oderwania się od natłoku codziennych spraw. Dostępne pokoje hotelowe dla nowożeńców i ich gości to duży komfort pozwalający na chwilę odpoczynku w trakcie i dłuższy już po nieprzespanej nocy.</p>
         </div>
@@ -100,7 +100,7 @@ get_header();
             <p>Do dyspozycji gości oddajemy basen o wymiarach 15 x 5 x 1,35 m,
                 wannę z jacuzzi wewnętrzną i zewnętrzną, saunę suchą i mokrą, relaksacyjną grotę solną, brodzik dla dzieci. Dodatkowo organizujemy zajęcia z aqua aerobiku . Obsługa basenu zapewnia komfort i bezpieczeństwo . Nasz basen to doskonałe miejsce do nietypowej sesji zdjęciowej dla narzeczonych czy nowożeńców.</p>
         </div>
-        <div><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/14/cover.jpg"; ?>" alt="" />
+        <div><img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/bawialnia.jpg"; ?>" alt="" />
             <h4>Bawialnia dla dzieci</h4>
             <p>Pragniemy aby każdy nasz gość czuł się u nas dobrze. Z troską dbamy o najmłodszych gości oddając im miejsce gdzie dzieci są najważniejsze. Sala zabaw to miejsce dostosowane dla najmłodszych, wyposażone w zabawki, domki, pojazdy i art papiernicze. To wesołe i najbardziej kolorowe miejsce w naszym Hotelu
                 da dzieciom przestrzeń do zabawy a rodzicom chwilę odpoczynku przy kawie. </p>

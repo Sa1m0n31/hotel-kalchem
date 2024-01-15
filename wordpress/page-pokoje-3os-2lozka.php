@@ -14,7 +14,7 @@ get_header();
     <div>
         <ul class="rslides">
             <li>
-                <img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/gallery/2/cover.jpg"; ?>" alt="">
+                <img src="<?php echo get_bloginfo("stylesheet_directory") . "/assets/pokoje-3-osobowe-2-lozka-2.jpg"; ?>" alt="">
             </li>
         </ul>
     </div>
@@ -38,7 +38,7 @@ get_header();
                 <div class="gallery">
 
                 </div>
-                <div class="tablebox"><table class="table"><thead><tr><th>Opcja</th><th> </th></tr></thead><tbody><tr><td>Pokój 3os. Premium + Basen<br><span>Oferta ze śniadaniem i możliwością skorzystania z basenów</span></td><td> </td></tr><tr><td>Pokój 3os. Standard + Basen<br><span>Oferta bez śniadania, z możliwością skorzystania z basenów</span></td><td> </td></tr></tbody></table><table class="table"><thead><tr><th>Zniżki i dodatkowe opłaty</th></tr></thead><tbody><tr><td>Dzieci do lat 4-ciu</td><td>Za darmo *</td></tr><tr><td>Dzieci od 4 do 10 lat</td><td>Stawka 50% *</td></tr><tr><td>Dzieci od 10 lat</td><td>Stawka normalna</td></tr><tr><td>Mały pies / duży pies</td><td>20,- / 40,-</td></tr></tbody></table><div></div></div>
+                <div class="tablebox"><table class="table"><thead><tr><th>Opcja</th><th> </th></tr></thead><tbody><tr><td>Pokój 3os. Premium + Basen<br><span>Oferta ze śniadaniem i możliwością skorzystania z basenów</span></td><td> </td></tr><tr><td>Pokój 3os. Standard + Basen<br><span>Oferta bez śniadania, z możliwością skorzystania z basenów</span></td><td> </td></tr></tbody></table><table class="table"><thead><tr><th>Zniżki i dodatkowe opłaty</th></tr></thead><tbody><tr><td>Dzieci do lat 4</td><td>Za darmo</td></tr><tr><td>Dzieci od 4 do 10 lat</td><td>Opłata za dostawkę</td></tr><tr><td>Dzieci od 10 lat</td><td>Stawka normalna</td></tr></tbody></table><div></div></div>
             </div>
         </div>
     </article>
